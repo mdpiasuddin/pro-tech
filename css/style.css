@@ -38,3 +38,9 @@ p {
 .text-heading {
   width: 85%;
 }
+.ready-text {
+  color: #f4f4f47c;
+}
+.padding {
+  padding: 80px 50px;
+}
