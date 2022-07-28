@@ -55,7 +55,7 @@ i {
 @media (min-width: 320px) and (max-width: 576px) {
   .text-part {
     position: absolute;
-    top: 15%;
+    top: 10%;
     left: 12%;
   }
   .banner-text {
