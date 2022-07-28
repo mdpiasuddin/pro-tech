@@ -6,6 +6,11 @@ p {
   font-size: 16px;
   color: #777777;
 }
+i {
+  color: white;
+  font-size: 35px;
+  margin: 20px 10px;
+}
 .logo {
   font-size: 40px;
   font-weight: 700;
@@ -46,4 +51,37 @@ p {
 }
 .footer-text {
   padding: 100px 20px;
+}
+@media (min-width: 320px) and (max-width: 576px) {
+  .banner-text {
+    font-size: 30px;
+  }
+  .text {
+    font-size: 12px !important;
+  }
+  .companny {
+    display: none;
+  }
+  .butn {
+    padding: 10px 15px !important;
+  }
+  #courses {
+    margin: 47px auto !important;
+  }
+}
+@media (min-width: 577px) and (max-width: 991px) {
+  .banner-text {
+    font-size: 37px;
+  }
+  .text-part {
+    position: absolute;
+    top: 15%;
+    left: 12%;
+  }
+  .text-heading {
+    width: 100%;
+  }
+  .companny {
+    display: none;
+  }
 }
